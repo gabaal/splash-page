@@ -4,16 +4,11 @@
   align-items: center;
   font-family: Garamond;
 }
-
-.contact {
-  padding: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
-  font-family: "Times New Roman";
-  font-size: large;
-  color: rgb(78, 54, 134);
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
 }
 
 .body {
@@ -25,4 +20,15 @@
   position: fixed;
   top: 5%;
   left: 25%;
+}
+
+.contact {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  color: rgb(78, 54, 134);
 }
